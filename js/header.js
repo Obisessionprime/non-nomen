@@ -12,7 +12,7 @@ let mini_menu = `<div class = "drop">
 
 function define_header()
 {
-    let head = '<a href = "main_page.html"><img src = "../src/img/header/logo.png" class = "logo"></a>\n'
+    let head = '<a href = "index.html"><img src = "../src/img/header/logo.png" class = "logo"></a>\n'
     head += '<div>'
     head += mini_menu;
     head += '<nav class = "bigger_menu">' + navigation + '</nav>';
