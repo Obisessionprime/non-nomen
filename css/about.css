@@ -1,0 +1,132 @@
+@import url(../css/main_style.css);
+
+.history_title
+{
+    display: flex;
+    justify-content: center;
+}
+
+.history_title h1
+{
+    margin: 10px 0px;
+}
+
+.history
+{
+    margin: 0px 0px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.history h2
+{
+    text-align: center;
+}
+
+.history_block
+{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.history img
+{
+    width:  550px;
+    height: 400px;
+    margin: 0 5px;
+    border-radius: 20px;
+    filter: blur(15);
+}
+
+
+.history .text
+{
+    width: 550px;
+    height: 400px;
+    margin: 0 5px;
+    text-align: justify;
+}
+
+.history h2
+{
+    margin: 10px 0px;
+}
+
+.history hr
+{
+    width: 100%;
+    border-width: 0;
+}
+
+@media screen and (min-width: 1520px)
+{
+    .history img 
+    {
+        width: 750px;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 565px)
+{
+    .history .text:nth-child(1)
+    {
+        margin-right: -555px;
+        color: black;
+        z-index: 1;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .history img 
+    {
+        z-index: 2;
+        cursor: pointer;
+    }
+    .history .text:nth-child(2n)
+    {
+        margin-left: -555px;
+        color: black;
+        z-index: 1;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 564px) and (min-width: 275px)
+{
+    .history .text
+    {
+        width:  270px;
+        height: 270px;
+    }
+    body 
+    {
+        font-size: 12px;
+    }
+    .history .text:nth-child(1)
+    {
+        margin-right: -275px;
+        color: black;
+        z-index: 1;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .history img 
+    {
+        width:  270px;
+        height: 270px;
+        z-index: 2;
+        cursor: pointer;
+    }
+    .history .text:nth-child(2n)
+    {
+        margin-left: -275px;
+        color: black;
+        z-index: 1;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,60 @@
+@import url(../css/main_style.css);
+
+.cdm_map
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 21px;
+}
+
+.map_frame
+{
+    width: 650px;
+    height: 450px;
+}
+
+.phone_numbers
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone_item
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 650px)
+{
+    .phone_numbers
+    {
+        font-size: 14px;
+    }
+    .map_frame
+    {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .phone_item
+    {
+        font-size: 10px;
+    }
+    .map_frame
+    {
+        width: 250px;
+        height: 250px;
+    }
+    .big_name
+    {
+        font-size: 15px;
+    }
+}
